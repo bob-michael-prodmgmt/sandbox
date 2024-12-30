@@ -1,8 +1,4 @@
 Objective: To Deploy Llama 3 70B on AWS Inferentia2 with Hugging Face Optimum
-Llama 3 is the latest is the open LLM from Meta, released in April 2024. 
-It is trained on more data - 15T tokens and supports context length window up to 8K tokens and is one of the best open available LLMs. 
-Meta fine-tuned conversational models with Reinforcement Learning from Human Feedback on over 10 million human annotations.
-
 We hope to deploy /meta-llama/Meta-Llama-3-70B-Instruct model on AWS Inferentia2 with Hugging Face Optimum on Amazon SageMaker. 
 We are going to use the Hugging Face LLM Inf2 Container a new purpose-built Inference Container to easily deploy 
 LLMs on AWS Inferentia2 powered by Text Generation Inference and Optimum Neuron.
