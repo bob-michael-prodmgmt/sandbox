@@ -12,7 +12,7 @@ Run inference and chat with the model
 Benchmark llama 3 70B with llmperf on AWS Inferentia2
 Clean up
 
-Lets get started! 🚀
+Lets get started! 
 
 Quick intro: AWS Inferentia 2
 AWS inferentia (Inf2) are purpose-built EC2 for deep learning (DL) inference workloads. 
@@ -239,7 +239,7 @@ Now we can run the benchmark with the following command.
 We are going to benchmark using 5 concurrent users and max 50 requests. 
 The benchmark will measure first-time-to-token, latency (ms/token) and throughput (tokens/s) full details can be found in the results folder
 
-🚨Important🚨: This benchmark was initiatied from Europe, while the endpoint runs in us-east-1. 
+Important: This benchmark was initiatied from Europe, while the endpoint runs in us-east-1. 
 This has significant impact on the first-time-to-token metric, since it includes the network communication. 
 If you want to measure the first-time-to-token correctly, you need to run the benchmark on the same host or your production region.
 
